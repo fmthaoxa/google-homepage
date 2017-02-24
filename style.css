@@ -1,0 +1,28 @@
+li {
+  display: inline;
+}
+.navtext {
+  font-family: arial;
+  padding: 0.5em
+}
+
+#navbar ul{
+  position:absolute;
+  right:2em;]
+  top:1em;
+}
+.signin {
+  background:blue;
+  color:white;
+  font-weight: bold;
+  border-radius: 3px;
+  padding: .6em 1em;
+}
+.apps {
+  height: 30px;
+  width: 30px;
+  background-size: 30px 30px;
+  vertical-align: middle;
+  padding-right: 2em;
+  padding-left: 1em;
+}
