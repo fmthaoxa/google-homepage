@@ -20,6 +20,21 @@ li {
   padding: .6em 1em;
   text-decoration: none;
   font-family: Arial, sans-serif;
+  opacity: 0.75
+}
+.signin:hover {
+  text-decoration: none;
+  opacity: 2
+}
+.signin:visited {
+  background: blue;
+  color: white;
+  font-weight: bold;
+  border-radius: 3px;
+  padding: .6em 1em;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+  opacity: 0.75
 }
 .apps {
   height: 30px;
@@ -28,6 +43,11 @@ li {
   vertical-align: middle;
   padding-right: 2em;
   padding-left: 1em;
+  opacity: 0.55;
+}
+.apps:hover {
+  text-decoration: none;
+  opacity: 1
 }
 .main {
   display: block;
@@ -41,8 +61,8 @@ li {
   width: 700px;
   margin-top: 2em;
   margin-left: -8em;
-  height: 25px;
-  box-shadow: 0px 2px 2px 1px;
+  height: 40px;
+  box-shadow: 0px 1px 5px 0px;
   border-radius: 2px;
   font-size: 20px;
   padding: 10px;
@@ -50,12 +70,18 @@ li {
   position: absolute;
   border: none;
 }
+.searchbox:hover {
+  box-shadow: -3px 2px 9px 2px;
+}
+.searchbox:focus {
+  box-shadow: -3px 2px 9px 2px;
+}
 .voiceicon {
   display: block;
   margin: auto;
   height: 35px;
   position: relative;
-  top: 251px;
+  top: 254px;
   left: 375px;
 }
 .submitbutton {
@@ -67,6 +93,12 @@ li {
   padding: 12px;
   text-align: center;
   margin-right: 25px;
+  opacity: .8;
+  color: black;
+}
+.submitbutton:hover {
+  opacity: 1;
+  border: 2px solid gray;
 }
 .buttonarea {
   display: block;
@@ -78,7 +110,7 @@ li {
 }
 .footer {
   background: #f2f2f2;
-  height: 39px;
+  height: 53px;
   vertical-align: baseline;
   border-top: 1px solid #e4e4e4;
   margin: 0;
@@ -103,9 +135,19 @@ li {
     position: fixed;
     margin: 10px;
 }
-li:hover {
-  text-decoration: underline;
-}
 .signin li:hover {
   text-decoration: none;
+}
+a:link {
+  text-decoration: inherit;
+}
+a:active {
+  color: white;
+  text-decoration: underline;
+}
+a:visited {
+  color:black;
+}
+.textnav:hover {
+  text-decoration: underline;
 }
