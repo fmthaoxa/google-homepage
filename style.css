@@ -147,6 +147,8 @@ a:active {
 }
 a:visited {
   color:black;
+a:link {
+  color:black;
 }
 .textnav:hover {
   text-decoration: underline;
